@@ -19930,7 +19930,7 @@ var $async$Wy=A.a6(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 l=t.N
 s=7
-return A.a1(A.axg(A.qK("http://localhost:5000/curl"),B.aN.iE(a.dN()),A.aB(["Content-type","application/json"],l,l)),$async$Wy)
+return A.a1(A.axg(A.qK("https://my-devtools.azurewebsites.net/api/my-devtools?code=wmdiJF-y6IFU2RNsc63KZsKF7vVAIRNM2E8NWUxvKGyoAzFuoReukQ%3D%3D"),B.aN.iE(a.dN()),A.aB(["Content-type","application/json"],l,l)),$async$Wy)
 case 7:n=c
 l=n
 l=B.aN.yM(0,A.aww(A.auC(l.e).c.a.h(0,"charset")).d5(0,l.w),null)
