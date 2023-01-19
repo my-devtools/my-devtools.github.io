@@ -15,13 +15,14 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"googled95e7a47f36dfee5.html": "97f1b0f442b1fc56be0c0ae5b9463460",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "5e987edcdf43a5a6b7a322f906c7161f",
-"/": "5e987edcdf43a5a6b7a322f906c7161f",
-"main.dart.js": "24161a844fe1ff696553541be8d87484",
+"index.html": "0fff9affa0e8c07d4d9fe69591186581",
+"/": "0fff9affa0e8c07d4d9fe69591186581",
+"main.dart.js": "144db8e65f7604f3d87c000a9fdd7f0b",
 "version.json": "2218fa07cba934b625f3ca2e8d9d634f"
 };
 
