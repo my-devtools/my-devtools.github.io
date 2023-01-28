@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://my-devtools.github.io/sitemap.txt
