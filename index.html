@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -18,7 +19,8 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Streamline your workflow and automate repetitive tasks with our essential DevOps tool. Our user-friendly UI provides an easy way to perform cURL commands and CIDR calculations for developers and engineers. Try it now and see the difference it makes!">
+  <meta name="description"
+    content="Streamline your development workflow with our all-in-one our dev online tool. Easily perform cURL & postmane requests, calculate CIDR ranges, visual subnet calculator, decode and encode base64, and more with our user-friendly UI. Save time and improve efficiency with our devops tool.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,16 +28,24 @@
   <meta name="apple-mobile-web-app-title" content="Dev Tool">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 
+  <meta property="og:title" content="DevOps Tool - cURL, CIDR Calculator, Base64 Encoder/Decoder - Online" />
+  <meta property="og:description"
+    content="Streamline your development workflow with our all-in-one our dev online tool. Easily perform cURL & postmane requests, calculate CIDR ranges, visual subnet calculator, decode and encode base64, and more with our user-friendly UI. Save time and improve efficiency with our devops tool."" />
+  <meta property="og:type" content="website" />
+
+  <meta property="og:url" content="https://my-devtools.github.io/" />
+
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-  <title>The Most Essential Dev Tool - cURL and CIDR Calculator for Developers and Engineers</title>
+  <title>DevOps Tool - cURL, CIDR Calculator, Base64 Encoder/Decoder - Online</title>
   <!-- <link rel="manifest" href="manifest.json"> -->
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3190755412';
+    var serviceWorkerVersion = '2856361066';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -46,42 +56,58 @@
       border-top: 16px solid #3498db;
       width: 50px;
       height: 50px;
-      -webkit-animation: spin 2s linear infinite; /* Safari */
+      -webkit-animation: spin 2s linear infinite;
+      /* Safari */
       animation: spin 2s linear infinite;
       position: fixed;
-      top:-100%; right:-100%; left:-100%; bottom:-100%;
-      margin:auto;
-      z-index:0;
+      top: -100%;
+      right: -100%;
+      left: -100%;
+      bottom: -100%;
+      margin: auto;
+      z-index: 0;
     }
-    
+
     /* Safari */
     @-webkit-keyframes spin {
-      0% { -webkit-transform: rotate(0deg); }
-      100% { -webkit-transform: rotate(360deg); }
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
     }
-    
+
     @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
     }
-    </style>
-    
+  </style>
+
 </head>
+
 <body>
   <div class="loader"></div>
   <script>
-    window.addEventListener('load', function(ev) {
+    window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         }
-      }).then(function(engineInitializer) {
+      }).then(function (engineInitializer) {
         return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
+      }).then(function (appRunner) {
         return appRunner.runApp();
       });
     });
   </script>
 </body>
+
 </html>
