@@ -36936,7 +36936,7 @@ A.u4.prototype={
 aj(){var s=t.z
 return new A.Kf(new A.kc(B.cf,$.aJ()),A.y(s,s),B.m)}}
 A.Kf.prototype={
-L(a){var s,r,q=this,p=null,o=A.fp(A.hN("Base64 is a way to encode binary data into ASCII text. This is a simple online tool to encode your data in to base64 text and also to decode your encoded base64 text back.\n\nTo encode, input the text and press 'Enocde' and to decode, input the encoded text and press 'Decode'",p,p,p,B.Np,p,p),p,600),n=A.fp(A.Jh(!0,B.aZ,!1,p,q.d,p,p,p,2,B.D2,!0,p,!0,p,!1,p,p,p,p,p,p,10,p,p,!1,"\u2022",p,p,p,p,!1,p,p,B.ct,p,p,p,p,p,p,p,B.aj,p,B.cO,p,p,p),p,600),m=t.p,l=A.eY(A.a([A.v5(B.NV,new A.a7V(q),A.pr(p,p,B.aM,p,p,p,20,p,p,p,p,p,p,p,new A.c9(A.dd(5),B.j),B.cU,p,p,p,p)),A.v5(B.NR,new A.a7W(q),A.pr(p,p,B.aM,p,p,p,20,p,p,p,p,p,p,p,new A.c9(A.dd(3),B.j),B.cU,p,p,p,p))],m),B.aW,B.GQ,B.a3),k=q.e
+L(a){var s,r,q=this,p=null,o=A.fp(A.hN("Base64 is a way to encode binary data into ASCII text. This is a simple online tool to encode your data in to base64 text and also to decode your encoded base64 text back.\n\nTo encode, input the text and press 'Enocde' and to decode, input the encoded text and press 'Decode'",p,p,p,B.Np,p,p),p,1000),n=A.fp(A.Jh(!0,B.aZ,!1,p,q.d,p,p,p,2,B.D2,!0,p,!0,p,!1,p,p,p,p,p,p,10,p,p,!1,"\u2022",p,p,p,p,!1,p,p,B.ct,p,p,p,p,p,p,p,B.aj,p,B.cO,p,p,p),p,1000),m=t.p,l=A.eY(A.a([A.v5(B.NV,new A.a7V(q),A.pr(p,p,B.aM,p,p,p,20,p,p,p,p,p,p,p,new A.c9(A.dd(5),B.j),B.cU,p,p,p,p)),A.v5(B.NR,new A.a7W(q),A.pr(p,p,B.aM,p,p,p,20,p,p,p,p,p,p,p,new A.c9(A.dd(3),B.j),B.cU,p,p,p,p))],m),B.aW,B.GQ,B.a3),k=q.e
 if(k.a!==0&&k.ad(0,"value")){k=A.dd(5)
 s=A.hj(B.tL,1)
 k=new A.b6(B.C,A.ba(p,A.eY(A.a([A.vd(new A.b6(B.C,A.If(q.e.h(0,"value"),p,p),p),1),A.nb(p,B.da,20,new A.a7X(q),p)],m),B.bX,B.cA,B.a3),B.k,p,p,new A.bV(p,p,s,k,p,p,B.K),p,p,p,p,p,p,600),p)}else k=A.ba(p,p,B.k,p,p,p,p,p,p,p,p,p,p)
@@ -37422,7 +37422,7 @@ $R:3,
 $S:82}
 A.qd.prototype={
 L(a){var s=null
-return new A.w9(new A.xr(new A.u_(B.NX,new A.Nv(s,s,1/0,56),s),new A.pB(A.a3A("page"),new A.a_a(),s,t.jz),B.Bz,s),"DevOps Tool - cURL, CIDR Calculator, Base64 Encoded - Online",s)}}
+return new A.w9(new A.xr(new A.u_(B.NX,new A.Nv(s,s,1/0,56),s),new A.pB(A.a3A("page"),new A.a_a(),s,t.jz),B.Bz,s),"DevOps Tool - cURL, CIDR Calculator, Base64 Encoder/Decoder - Online",s)}}
 A.a_a.prototype={
 $2(a,b){var s,r=b.b
 if(r!=null){s=J.he(r)
